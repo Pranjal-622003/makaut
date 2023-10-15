@@ -1,0 +1,23 @@
+{
+    "cse":{
+        "sem1":[
+            "Math",
+            "physics"
+        ],
+        "sem2":[
+            "chemistry",
+            "Biology"
+        ]
+
+    },
+    "ECE":{
+        "sem1":[
+            "Math",
+            "ece"
+        ],
+        "sem2":[
+            "chemistry",
+            "Advance ece"
+        ]
+    }
+}
