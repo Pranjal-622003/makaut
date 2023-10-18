@@ -11,6 +11,7 @@ import Fillform from '../components/Fillform';
 
 const Sidebar = ({ handleProfileClick, handleOrderClick,handleLikeClick,handleAddItemClick }) => {
   const { data: session } = useSession(); 
+ 
 
   return (
     <div className="flex flex-col w-full h-screen p-4 sm:w-3/4 bg-amber-200">
