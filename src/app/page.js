@@ -11,10 +11,9 @@ export default function Home() {
 
   return (
     <>
-      {/* <div className="grid h-screen -mt-24 place-items-center">
-        <UserInfo />
-      </div> */}
       <div className="flex p-4">
+        
+      <UserInfo />
         <div className="w-3/4 p-6">
           <h2>Your Heading</h2>
           <p>

@@ -1,61 +1,138 @@
 "use client"
 import React, { useState } from 'react';
+import Image from 'next/image';
+import { useSession } from 'next-auth/react';
+import ProfileEditing from '../components/profile_edit';
+import Previousorder from '../components/order_history';
+import Itemlike from '../components/LikedItem';
+import Fillform from '../components/Fillform';
 
-const Page = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-  const handleSidebarToggle = () => {
-    setIsSidebarOpen(!isSidebarOpen);
-  };
+
+const Sidebar = ({ handleProfileClick, handleOrderClick,handleLikeClick,handleAddItemClick }) => {
+  const { data: session } = useSession(); 
 
   return (
-    
-    <div className="flex flex-col sm:flex-row">
-      {/* Sidebar */}
-      <aside
-        id="cta-button-sidebar"
-        className={`sm:w-64 h-screen bg-gray-800 text-white ${
-          isSidebarOpen ? 'block' : 'hidden sm:block'
-        }`}
-      >
-        <ul className="p-4">
-          <li className="mb-4">
-            <a href="#" className="text-white">Sidebar Item 1</a>
-          </li>
-          <li className="mb-4">
-            <a href="#" className="text-white">Sidebar Item 2</a>
-          </li>
-          {/* Add more sidebar items here */}
-        </ul>
-      </aside>
-
-      {/* Main Content */}
-      <div className="flex-grow p-4 bg-gray-100">
-        <button
-          data-drawer-target="cta-button-sidebar"
-          data-drawer-toggle="cta-button-sidebar"
-          aria-controls="cta-button-sidebar"
-          type="button"
-          className="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-          onClick={handleSidebarToggle}
-        >
-          <span className="sr-only">Open sidebar</span>
-          <svg
-            className="w-6 h-6"
-            aria-hidden="true"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            {/* SVG path code */}
-          </svg>
-        </button>
-
-        {/* Main content area */}
-        <div>
-          {/* Your main content here */}
-          <h1>Main Content</h1>
+    <div className="flex flex-col w-full h-screen p-4 sm:w-3/4 bg-amber-200">
+      <div className="mb-4 tex-xl">
+        <div className="flex items-center">
+        <Image
+          className="rounded-full"
+          src={session?.user?.image}
+          width={25}
+          height={20}
+        />
+          {session?.user?.name && (
+            <span>{session.user.name}</span>
+          )}
+          <div className="mr-2 cursor-pointer" onClick={handleProfileClick}>
+            <span>
+              <img src="/pencil.png" height={40} width={40} alt="Pencil Icon" />
+            </span>
+          </div>
         </div>
+      </div>
+      <div className="text-xl cursor-pointer" onClick={handleOrderClick}>
+        <div className="flex items-center">
+          <div className="mr-2">
+            <Image src="/cart.png" height={20} width={20} alt="Cart Icon" />
+          </div>
+          <span>My Items</span>
+        </div>
+      </div>
+
+
+      <div className="text-xl cursor-pointer" onClick={handleLikeClick}>
+        <div className="flex items-center">
+          <div className="mr-2">
+            <Image src="/like.png" height={20} width={20} alt="Cart Icon" />
+          </div>
+          <span>My Liked Items</span>
+        </div>
+      </div>
+
+      <div className="text-xl cursor-pointer" onClick={handleAddItemClick}>
+        <div className="flex items-center">
+          <div className="mr-2">
+            <Image src="/form.jpg" height={20} width={20} alt="Cart Icon" />
+          </div>
+          <span>Fill this form </span>
+        </div>
+      </div>
+
+
+    </div>
+  );
+};
+
+const ProfileSection = () => {
+  return (
+    <div className="w-full h-screen p-4 sm:w-3/4">
+      <h2 className="mb-4 text-2xl font-bold">Edit Profile</h2>
+      <ProfileEditing />
+    </div>
+  );
+};
+
+const OrderHistory = () => {
+  return (
+    <div className="w-full h-screen p-4 bg-white sm:w-3/4">
+      <h2 className="mb-4 text-2xl font-bold">My Items</h2>
+      <Previousorder/>
+    </div>
+  );
+};
+
+
+const LikeItems = () => {
+  return (
+    <div className="w-full h-screen p-4 bg-white sm:w-3/4">
+      <h2 className="mb-4 text-2xl font-bold">Liked Items</h2>
+      <Itemlike/>
+    </div>
+  );
+};
+
+const FormFillUp = () => {
+  return (
+    <div className="w-full h-screen p-4 bg-white sm:w-3/4">
+      <h2 className="mb-4 text-2xl font-bold">Form</h2>
+      <Fillform/>
+    </div>
+  );
+};
+
+const Page = () => {
+  const [activeTab, setActiveTab] = useState(null);
+
+  const handleProfileClick = () => {
+    setActiveTab('MyProfile');
+  };
+
+  const handleOrderClick = () => {
+    setActiveTab('MyOrders');
+  };
+
+  const handleLikeClick = () => {
+    setActiveTab('MyLikeItem');
+  };
+
+
+  const handleAddItemClick= () => {
+    setActiveTab('MyForm');
+  };
+  return (
+    <div className="flex flex-col sm:flex-row">
+      <div className="w-full sm:w-1/4">
+        <Sidebar handleProfileClick={handleProfileClick} handleOrderClick={handleOrderClick} 
+       handleLikeClick={handleLikeClick}  handleAddItemClick={handleAddItemClick}/>
+      </div>
+      <div className="w-full sm:w-3/4">
+        {activeTab === 'MyOrders' && <OrderHistory />}
+        {activeTab === 'MyProfile' && <ProfileSection />}
+        {activeTab === 'MyLikeItem' && <LikeItems />}
+        {activeTab === 'MyForm' && <FormFillUp />}
+
       </div>
     </div>
   );
