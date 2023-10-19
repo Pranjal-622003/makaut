@@ -6,9 +6,9 @@ import List from './list'
 const page = () => {
   return (
     <>
-      <div className="flex p-4">
+      <div className="flex p-4 divide-x-4">
         <div className="w-3/4 p-6 ">
-          <Search/>
+          <Search/><br/>
           <List />
         </div>
         <Filter />
