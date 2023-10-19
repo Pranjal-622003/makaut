@@ -1,0 +1,646 @@
+{
+    "CSE": {
+        "1st Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IA",
+            "Mathematics-IB",
+            "Basic Electrical Engineering"
+        ],
+        "2nd Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IIA",
+            "Mathematics-IIB",
+            "Programming for Problem Solving",
+            "English"
+        ],
+        "3rd Semester": [
+            "Analog and Digital Electronics",
+            "Data Structure & Algorithms",
+            "Computer Organisation",
+            "Mathematics-III (Differential Calculus)",
+            "Economics for Engineers (Humanities-II)"
+        ],
+        "4th Semester": [
+            "Discrete Mathematics",
+            "Computer Architecture",
+            "Formal Language & Automata Theory",
+            "Design & Analysis of Algorithms",
+            "Biology",
+            "Environmental Sciences"
+        ],
+        "5th Semester": [
+            "Software Engineering",
+            "Compiler Design",
+            "Operating Systems",
+            "Object Oriented Programming",
+            "Introduction to Industrial Management (Humanities III)",
+            "Theory of Computation",
+            "Artificial Intelligence",
+            "Advanced Computer Architecture",
+            "Computer Graphics",
+            "Constitution of India",
+            "Essence of Indian Knowledge Tradition"
+        ],
+        "6th Semester": [
+            "Database Management Systems",
+            "Computer Networks",
+            "Advanced Algorithms",
+            "Distributed Database Management System",
+            "Signals & Systems",
+            "Image Processing",
+            "Parallel and Distributed Algorithms",
+            "Data Warehousing & Data Mining",
+            "Human Computer Interaction",
+            "Pattern Recognition",
+            "Numerical Methods",
+            "Human Resource Development and Organizational Behavior",
+            "Research Methodology"
+        ],
+        "7th Semester": [
+            "Quantum Computing",
+            "Cloud Computing",
+            "Digital Signal Processing",
+            "Multi-agentIntelligent Systems",
+            "Machine learning",
+            "Neural Networks and Deep Learning",
+            "Soft Computing",
+            "Ad-Hoc and Sensor Networks",
+            "Information Theory and Coding",
+            "Cyber Security",
+            "Operations Research",
+            "Multimedia Systems",
+            "Introduction to Philosophical Thoughts",
+            "Project Management and Entrepreneurship",
+            "Project-II"
+        ],
+        "8th Semester": [
+            "Signals and Networks",
+            "Cryptography Network Security",
+            "Speech and Natural Language Processing",
+            "Web and Internet Technology",
+            "Internet of Things",
+            "Big Data Analysis",
+            "Cyber Law and Ethics",
+            "Mobile Computing",
+            "Robotics",
+            "Soft Skill & Interpersonal Communication",
+            "E-Commerce and ERP",
+            "Micro-electronics and VLSI Design",
+            "Economic Policies in India",
+            "Project-III"
+        ]
+    },
+    "IT": {
+        "1st Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IA",
+            "Mathematics-IB",
+            "Basic Electrical Engineering"
+        ],
+        "2nd Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IIA",
+            "Mathematics-IIB",
+            "Programming for Problem Solving",
+            "English"
+        ],
+        "3rd Semester": [
+            "Analog and Digital Electronics",
+            "Data Structure & Algorithms",
+            "Computer Organisation",
+            "Mathematics-III (Differential Calculus)",
+            "Economics for Engineers (Humanities-II)"
+        ],
+        "4th Semester": [
+            "Discrete Mathematics",
+            "Computer Architecture",
+            "Formal Language & Automata Theory",
+            "Design & Analysis of Algorithms",
+            "Biology",
+            "Environmental Sciences"
+        ],
+        "5th Semester": [
+            "Software Engineering",
+            "Compiler Design",
+            "Operating Systems",
+            "Object Oriented Programming",
+            "Introduction to Industrial Management (Humanities III)",
+            "Theory of Computation",
+            "Artificial Intelligence",
+            "Advanced Computer Architecture",
+            "Computer Graphics",
+            "Constitution of India",
+            "Essence of Indian Knowledge Tradition"
+        ],
+        "6th Semester": [
+            "Database Management Systems",
+            "Computer Networks",
+            "Advanced Algorithms",
+            "Distributed Database Management System",
+            "Signals & Systems",
+            "Image Processing",
+            "Parallel and Distributed Algorithms",
+            "Data Warehousing & Data Mining",
+            "Human Computer Interaction",
+            "Pattern Recognition",
+            "Numerical Methods",
+            "Human Resource Development and Organizational Behavior",
+            "Research Methodology"
+        ],
+        "7th Semester": [
+            "Internet Technology",
+            "Quantum Computing",
+            "Cloud Computing",
+            "Machine learning",
+            "Neural Networks and Deep Learning",
+            "Soft Computing",
+            "Ad-Hoc and Sensor Networks",
+            "Information Theory and Coding",
+            "Cyber Security",
+            "Operations Research",
+            "Multimedia Technology",
+            "Introduction to Philosophical Thoughts",
+            "Soft Skill & Interpersonal Communication",
+            "Project Management and Entrepreneurship",
+            "Project-II"
+        ],
+        "8th Semester": [
+            "Signals and Networks",
+            "Cryptography & Network Security",
+            "Speech and Natural Language Processing",
+            "Remote Sensing and GIS",
+            "Internet of Things",
+            "Big Data Analysis",
+            "Cyber Law and Ethics",
+            "Mobile Computing",
+            "Robotics",
+            "Bioinformatics",
+            "E-Commerce and ERP",
+            "Micro-electronics and VLSI Design",
+            "Economic Policies in India",
+            "Project-III"
+        ]
+    },
+    "ECE": {
+        "1st Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IA",
+            "Mathematics-IB",
+            "Basic Electrical Engineering"
+        ],
+        "2nd Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IIA",
+            "Mathematics-IIB",
+            "Programming for Problem Solving",
+            "English"
+        ],
+        "3rd Semester": [
+            "Electronic Devices",
+            "Digital System Design",
+            "Signals and Systems",
+            "Network Theory",
+            "Data Structure & Algorithms",
+            "Probability & Statistics",
+            "Environmental Science"
+        ],
+        "4th Semester": [
+            "Analog Communication",
+            "Analog Electronic Circuits",
+            "Microprocessor & Microcontrollers",
+            "Design and Analysis of Algorithm",
+            "Numerical Methods",
+            "Biology for Engineers"
+        ],
+        "5th Semester": [
+            "Electromagnetic Waves",
+            "Computer Architecture",
+            "Digital Communication & Stochastic Process",
+            "Digital Signal Processing",
+            "Soft Skill and Interpersonal  Communication",
+            "Cyber Law & Intellectual Property V Rights",
+            "Human Resource Management",
+            "Nano Electronics",
+            "Speech and Audio Processing",
+            "Power Electronics",
+            "Effective Technical Communication",
+            "Scientific Computing"
+        ],
+        "6th Semester": [
+            "Control System & Instrumentation",
+            "Computer Network",
+            "Economics for Engineers",
+            "Universal Human Values",
+            "Introduction to MEMS",
+            "Bio-Medical Electronics",
+            "CMOS VLSI Design",
+            "Information Theory & Coding",
+            "Electronic Measurements and Measuring Instruments",
+            "Operating System",
+            "Object Oriented Programming"
+        ],
+        "7th Semester": [
+            "Web Technology",
+            "Optimisation Technique",
+            "Entrepreneurship",
+            "Microwave Theory and Techniques",
+            "Satellite Communication",
+            "Mobile Communication and Networks",
+            "Adaptive Signal Processing",
+            "Digital Image and Video  Processing",
+            "Neural Network and Fuzzy Logic Control",
+            "Embedded System",
+            "Wireless Sensor Networks",
+            "Wavelet Transforms",
+            "Principles of Management"
+        ],
+        "8th Semester": [
+            "Antennas and Propagation",
+            "Fibre Optic Communication",
+            "Error Correcting Codes",
+            "Mixed Signal Design",
+            "Industrial Automation and  Control",
+            "VLSI Design Automation",
+            "Internet of Things",
+            "Big Data Analysis",
+            "Cyber Security",
+            "Artificial Intelligence",
+            "Microwave Integrated Circuits",
+            "Organisational Behaviour"
+        ]
+    },
+    "CIVIL": {
+        "1st Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IA",
+            "Mathematics-IB",
+            "Basic Electrical Engineering"
+        ],
+        "2nd Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IIA",
+            "Mathematics-IIB",
+            "Programming for Problem Solving",
+            "English"
+        ],
+        "3rd Semester": [
+            "Biology for Engineers",
+            "Engineering Mechanics",
+            "Energy Science & Engineering",
+            "Mathematics-III (Transform & Discrete Mathematics)",
+            "Humanities-I (Effective Technical Communication)",
+            "Introduction to Civil Engineering"
+        ],
+        "4th Semester": [
+            "Introduction to Fluid Mechanics",
+            "Introduction to Solid Mechanics",
+            "Soil Mechanics -I",
+            "Environmental Engineering -I",
+            "Surveying & Geomatics",
+            "Concrete Technology",
+            "Civil Engineering - Societal & Global Impact",
+            "Management I (Organizational Behavior)"
+        ],
+        "5th Semester": [
+            "Design of RC Structures",
+            "Engineering Hydrology",
+            "Structural Analysis -I",
+            "Soil Mechanics -II",
+            "Environmental Engineering -II",
+            "Transportation Engineering",
+            "Constitution of India",
+            "Essence of Indian Knowledge Tradition"
+        ],
+        "6th Semester": [
+            "Construction Engineering & Management",
+            "Engineering Economics Estimation & Costing",
+            "Water Resources Engineering",
+            "Design of Steel Structures",
+            "Stability of Slopes",
+            "Building Construction Practice",
+            "Foundation Engineering",
+            "Structural Analysis-II",
+            "Ground Improvement Technique",
+            "Industrial Structures",
+            "Soft Skills and Interpersonal Communication -I",
+            "Introduction to Philosophical Thoughts"
+        ],
+        "7th Semester": [
+            "Metro Systems & Engineering",
+            "Computational Hydraulics",
+            "ICT for Development",
+            "Disaster Preparedness and Planning",
+            "Cyber Law & Ethics",
+            "Hydraulic Structure",
+            "Prestressed Concrete",
+            "Air and Noise Pollution and Control",
+            "Repairs & Rehabilitation of Structures",
+            "Physico-Chemical Processes for Water and Wastewater Treatment",
+            "Finite Element Method",
+            "Water and Air Quality Modelling",
+            "Structural Dynamics",
+            "Railway and Airport Engineering",
+            "Advanced Structural Analysis",
+            "Pavement Design",
+            "Coastal Hydraulics and Sediment Transport",
+            "Transport System Planning"
+        ],
+        "8th Semester": [
+            "Professional Practice, law & Ethics",
+            "GIS & Remote Sensing",
+            "Rock Mechanics",
+            "Environmental laws and Policy",
+            "Pavement Materials and Design",
+            "Human Resource Development and Organizational Behavior",
+            "Soft Skills and Personality Development",
+            "Earthquake Engineering",
+            "Bridge Engineering",
+            "Urban Transport Planning",
+            "Deep Foundations",
+            "Environmental Impact Assessment and  Life cycle Analysis",
+            "Groundwater Contamination"
+        ]
+    },
+    "ME": {
+        "1st Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IA",
+            "Mathematics-IB",
+            "Basic Electrical Engineering"
+        ],
+        "2nd Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IIA",
+            "Mathematics-IIB",
+            "Programming for Problem Solving",
+            "English"
+        ],
+        "3rd Semester": [
+            "Mathematics",
+            "Biology",
+            "Basic Electronics Engineering",
+            "Engineering Mechanics",
+            "Thermodynamics",
+            "Manufacturing Processes"
+        ],
+        "4th Semester": [
+            "Materials Engineering",
+            "Thermodynamics",
+            "Fluid Mechanics & Fluid Machines ",
+            " Strength of Materials ",
+            " Metrology andInstrumentation"
+        ],
+        "5th Semester": [
+            "Heat Transfer ",
+            " Solid Mechanics ",
+            " Kinematics & Theory of Machines",
+            " Effective Technical Communication",
+            "  Essence of Indian Knowledge Tradition"
+        ],
+        "6th Semester": [
+            "Manufacturing Technology ",
+            "Design of Machine Elements ",
+            "Elective-I ",
+            "Elective-II ",
+            "Operations Research ",
+            "Constitution of India "
+        ],
+        "7th Semester": [
+            "Advanced Manufacturing Technology ",
+            "Elective III ",
+            "Elective-IV ",
+            "Open Elective- I ",
+            "Economics for Engineers "
+        ],
+        "8th Semester": [
+            "Elective V ",
+            "Elective VI ",
+            "Open Elective-II",
+            "Open Elective- III"
+        ]
+    },
+    "EE": {
+        "1st Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IA",
+            "Mathematics-IB",
+            "Basic Electrical Engineering"
+        ],
+        "2nd Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IIA",
+            "Mathematics-IIB",
+            "Programming for Problem Solving",
+            "English"
+        ],
+        "3rd Semester": [
+            "Electric Circuit Theory",
+            "Analog Electronics",
+            "Electromagnetic field theory",
+            "Engineering Mechanics",
+            "Mathematics-III ",
+            "Biology for Engineers  "
+        ],
+        "4th Semester": [
+            "Electric machine-I",
+            "Digital Electronic ",
+            "Electrical and Electronics Measurement",
+            " Thermal Power Engineering",
+            " Values and Ethics in profession",
+            " Environmental Science "
+        ],
+        "5th Semester": [
+            "Electric machine-II ",
+            "Power system-I ",
+            "Control system ",
+            "Power electronics ",
+            "High voltage Engineering",
+            "Power Plant Engineering",
+            "Renewable & Non  conventional energy",
+            " Data structure & algorithm",
+            "Object oriented programming",
+            "Computer organization & architecture  "
+        ],
+        "6th Semester": [
+            "Power System-II ",
+            " Micro processor & micro controller",
+            "  Digital control system",
+            "HVDC transmission",
+            "Electrical Machine Design",
+            "   Electrical and Hybrid vehicle",
+            "Power quality & FACTS ",
+            "Industrial Electrical systems",
+            " Digital Signal Processing",
+            " Communication  Engineering",
+            " VLSI & Microelectronics",
+            " Economics for Engineers "
+        ],
+        "7th Semester": [
+            "Electric Drive",
+            " Control system Design",
+            "  Electrical Energy conservation & Auditing",
+            " Power generation economics ",
+            "  Artificial intelligence ",
+            " Internet of things ",
+            " Computer graphics ",
+            " Embedded system ",
+            "Digital image processing ",
+            "Computer network",
+            " Principle of Management "
+        ],
+        "8th Semester": [
+            "Utilization of Electric Power ",
+            "  Line commutated and active PWM rectifiers",
+            "  Power system dynamics & control ",
+            " Advanced Electric Drives ",
+            " Industrial Automation and Control ",
+            "  Soft computing Techniques  ",
+            " Biomedical Instrumentation ",
+            " Introduction to Machine learning ",
+            " Sensors and Transducers"
+        ]
+    },
+    "EIE": {
+        "1st Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IA",
+            "Mathematics-IB",
+            "Basic Electrical Engineering"
+        ],
+        "2nd Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IIA",
+            "Mathematics-IIB",
+            "Programming for Problem Solving",
+            "English"
+        ],
+        "3rd Semester": [
+            "Mathematics III",
+            "Network Analysis",
+            "Sensors and Transducers ",
+            "Integrated Circuit",
+            "Digital Electronic Circuits ",
+            "Environmental Science"
+        ],
+        "4th Semester": [
+            "Electrical & Electronic Measurement",
+            "Industrial Instrumentation ",
+            "Microprocessor and Microcontroller",
+            "Data Structure and algorithm ",
+            "Biology ",
+            " Values and Ethics in Profession  "
+        ],
+        "5th Semester": [
+            "Control System ",
+            "Communication Techniques ",
+            "Electromagnetic Theory ",
+            "Optical Instrumentation",
+            "Embedded System",
+            "       Open Elective Courses-I OE-EI",
+            "Object Oriented Programming Language/ Data Base Management System  "
+        ],
+        "6th Semester": [
+            "Process Control ",
+            "Biomedical Instrumentation ",
+            " Internet of Things(IoT)/Artificial Intelligence(AI)",
+            " Digital signal Processing/Soft Computing Techniques",
+            " Economics for Engineers ",
+            " Indian Constitution and Cultures  "
+        ],
+        "7th Semester": [
+            "Mechatronics & Robotics/Digital Control System",
+            " Analytical Instrumentation/ Non Destructive Testing",
+            "Telemetry & wireless Sensor Network/ Non-Conventional Energy System",
+            "Computer Networks "
+        ],
+        "8th Semester": [
+            "Signals and Networks",
+            "Cryptography Network Security",
+            "Speech and Natural Language Processing",
+            "Web and Internet Technology",
+            "Internet of Things",
+            "Big Data Analysis",
+            "Cyber Law and Ethics",
+            "Mobile Computing",
+            "Robotics",
+            "Soft Skill & Interpersonal Communication",
+            "E-Commerce and ERP",
+            "Micro-electronics and VLSI Design",
+            "Economic Policies in India",
+            "Project-III"
+        ]
+    },
+    "FT": {
+        "1st Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IA",
+            "Mathematics-IB",
+            "Basic Electrical Engineering"
+        ],
+        "2nd Semester": [
+            "Physics-I",
+            "Chemistry-I",
+            "Mathematics-IIA",
+            "Mathematics-IIB",
+            "Programming for Problem Solving",
+            "English"
+        ],
+        "3rd Semester": [
+            "Chemistry-II ",
+            " Engineering Thermodynamics",
+            "Unit Operation I (Mechanical Operations and Separation Process)",
+            " Chemistry of Food ",
+            "Food Microbiology ",
+            "Biology for Engineers "
+        ],
+        "4th Semester": [
+            "Unit Operation II (Transfer Processes)",
+            "Biochemistry & Nutrition ",
+            "Principles of Food Preservation",
+            " Numerical Methods & Statistical Techniques",
+            " Professional Ethics & IPR",
+            "Slot for MC Environmental sciences  "
+        ],
+        "5th Semester": [
+            "Food process technology  I (cereals pulses fruits vegetables spices tea coffee & beverages)",
+            " Food process technology  II (fish meat poultry)",
+            "Food process engineering ",
+            " Elective  I (Fermentation Technology & Biochemical Engineering)",
+            "HASS-III (Engineering Economics)",
+            " Slot for MC Constitution of India"
+        ],
+        "6th Semester": [
+            "Food process technology  III (milk and milk products)",
+            " Food process technology  IV (edible fats and oils)",
+            " Food process technology  V (bakery confectionary and extruded foods)",
+            " HASS-IV (Principles of Management)",
+            "  Elective  II(Enzyme Technology/ Plant Maintenance Safety & Hygiene",
+            " Food additives)",
+            " Open Elective  II (Data Structure & Algorithm/DBMS) "
+        ],
+        "7th Semester": [
+            "Food Packaging Technology",
+            "Food Safety & Quality Management ",
+            " Elective  III (Management & Value Addition of Food Industry Wastes/            Nutraceuticals & Functional Foods/            Modeling & Simulation of Food Processes)",
+            "Elective  IV (Project Engineering & Food Plant Layout",
+            " Open Elective  III (Entrepreneurship Development for Food Technologists)",
+            "  Open Elective courses Open Elective  IV (Nanoscience in food Technology)"
+        ],
+        "8th Semester": []
+    }
+}
